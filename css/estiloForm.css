@@ -1,0 +1,31 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+label{
+    margin-top: 10px;
+    display: block;
+}
+.formulario{
+    max-width: 400px;
+    padding: 20px;
+    margin-bottom: 20px;
+    justify-content:center ;
+    border: solid;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(144, 161, 161);
+    text-align: center;
+
+}
+input{
+    width: 100%;
+}
+.botones{
+    margin: 20px;
+    display: inline-block;
+}

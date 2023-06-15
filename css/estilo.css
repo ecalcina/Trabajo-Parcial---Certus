@@ -1,0 +1,119 @@
+/* Regla CSS Globales*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.prueva{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+   text-decoration: line-through;
+}
+/*Regla CSS fondo*/
+.fondo {
+    background: linear-gradient(rgb(33, 171, 235), rgb(9, 6, 148))
+        /* color: red;
+    background-image: url("../images/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+/*Regla CSS para el HEAD*/
+.cabecera {
+    padding: 30px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    background-color: rgb(167, 27, 27);
+}
+/*Regla CSS para la seccion*/
+.catalogo{
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+   background-color: rgba(135, 175, 248, 0.3);
+  
+    
+
+}
+/*Regla CSS para los articulos*/
+article{
+    width: 20%;
+    min-width: 200px;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    border: 1px;
+    border-style: outset;
+    border-color: red;
+    box-shadow: 4px 4px 4px #474747;
+   
+
+}
+.carros {
+
+    width: 200px;
+    height: 200px;
+    border: 1px;
+    border-color: red;
+    border-radius: 20px;
+    border-style: ridge;
+    background-color: white;
+    /*box-shadow: 4px 4px 4px #474747; */
+}
+article:hover{
+    background-color: rgba(235, 237, 239,0.2 );
+    
+}
+p{
+    margin: 20px;
+}
+footer {
+    height: 100px;
+    margin: 10px ;
+
+    background-image: url("../images/fondopie.png");
+    
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+/*Regla CSS para el descuento*/
+.dsctoporcentual {
+    background-color: red !important;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 2px 5px;
+    margin: 20px;
+}
+#reg{
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: #2a48f5;
+    color: white;
+    }
+
+#reg:hover{
+    background-color: rgba(105, 173, 240, 0.8);
+}
+    
+}
+.dscto{
+    background-color: rgb(24, 255, 3);
+    border-radius: 5px;
+    font-family: Lato, sans-serif;
+    /* font-size: 14px; */
+    font-weight: 700;
+    line-height: 20px;
+    padding: 2px 5px;
+    margin: 20px;
+}

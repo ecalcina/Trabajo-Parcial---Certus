@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Enlace a la hoja de estilo-->
+    <link rel="stylesheet" href="css/estiloForm.css">
+</head>
+
+<body>
+    <main>
+        <div class="formulario">
+            <!--Formulario para registro-->
+            <form id="formulario" action="recibido.html" method="post">
+                <h2>Registrarse</h2>
+                <div>
+                    <label for="txtApellidos">Apellidos</label>
+                    <input type="texto" name="apellidos" id="txtapellidos">
+                </div>
+
+                <div>
+                    <label for="txtEmail">email</label>
+                    <input type="email" name="email" id="txtemail">
+                </div>
+                <div>
+                    <label for="txtTelefono">Teléfono</label>
+                    <input type="number" name="numero" id="txtnumero">
+                </div>
+                <div>
+                    <label for="txtfn">Nacimiento</label>
+                    <input type="date" name="nombres" id="txtn">
+                </div>
+                <div class="botones">
+                    <input type="reset" value="Cancelar">
+                    <input type="submit" value="Enviar">
+                </div>
+        </div>
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="contenido">
+        esperando...
+    </div>
+    <button type="button" onclick="salir()">Retirarme</button>
+        <!-- JavaScript-->
+        <script>
+            /*Crear var para guardad tu nombre*/
+            let txtNombre;
+            /*preguntar por el nombre*/
+            txtNombre=prompt("Cual es tu nombre?")
+            /*Crear variablke*/
+            let elementoContenido;
+            
+            /*Referencia a un elemento*/
+            elementoContenido=document.querySelector("#contenido");
+            /*llenar contenido mi elemento*/
+            elementoContenido.innerHTML="Hola, "+ txtNombre +"Bienvenido a Javascript.";
+            
+            function salir(){
+                close()
+            }
+        </script>
+   
+</body>
+
+</html>
